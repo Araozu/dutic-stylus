@@ -9,6 +9,6 @@ En la parte superior del archivo están las variables para modificar los colores
 
 ## Instalacion
 
-1. Instalar Userstyle
-2. Abrir el archivo dutic.user.css
-3. Seguir los [pasos de instalacion](https://github.com/openstyles/stylus/wiki/Usercss).
+1. Instalar [Stylus](https://github.com/openstyles/stylus)
+2. Hacer click al boton de arriba 'Install directly with Stylus'
+3. Aceptar.
