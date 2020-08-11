@@ -7500,7 +7500,6 @@ a#hidebankcmd {
 }
 
 .hide-text {
-    font: 0/0 a;
     color: transparent;
     background-color: transparent;
     border: 0
@@ -11107,7 +11106,7 @@ select.form-autocomplete-original-select {
 }
 
 .path-mod-lesson .essayungraded {
-    background-color: var(--color-rojo-oscuro)
+    background-color: var(--color-rojo-claro)
 }
 
 .path-mod-lesson .essaygraded {

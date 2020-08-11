@@ -1,5 +1,7 @@
 # Dutic - Stylus
 
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Araozu/dutic-stylus/master/dutic.user.css)
+
 Modo oscuro para el dutic, usando Stylus. Hecho independientemente y usando
 RegExp para capturar los colores, por lo que pueden haber varios estilos incorrectos.
 
