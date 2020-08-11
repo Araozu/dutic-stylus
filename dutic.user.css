@@ -2746,221 +2746,6 @@ span.CodeMirror-selectedtext {
     border-right: 1px dotted var(--color-fondo4);
 }
 
-@font-face {
-    font-family: VideoJS;
-}
-
-@font-face {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-play,
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
-.video-js .vjs-play-control .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-play-circle {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-pause,
-.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-volume-mute,
-.video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-volume-low,
-.video-js .vjs-mute-control.vjs-vol-1 .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-volume-mid,
-.video-js .vjs-mute-control.vjs-vol-2 .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-volume-high,
-.video-js .vjs-mute-control .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-fullscreen-enter,
-.video-js .vjs-fullscreen-control .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-fullscreen-exit,
-.video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-square {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-spinner {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-subtitles,
-.video-js .vjs-subtitles-button .vjs-icon-placeholder,
-.video-js .vjs-subs-caps-button .vjs-icon-placeholder,
-.video-js.video-js:lang(en-GB) .vjs-subs-caps-button .vjs-icon-placeholder,
-.video-js.video-js:lang(en-IE) .vjs-subs-caps-button .vjs-icon-placeholder,
-.video-js.video-js:lang(en-AU) .vjs-subs-caps-button .vjs-icon-placeholder,
-.video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-captions,
-.video-js .vjs-captions-button .vjs-icon-placeholder,
-.video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder,
-.video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-chapters,
-.video-js .vjs-chapters-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-share {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-cog {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-circle,
-.video-js .vjs-play-progress,
-.video-js .vjs-volume-level {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-circle-outline {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-circle-inner-circle {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-hd {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-cancel,
-.video-js .vjs-control.vjs-close-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-replay,
-.video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-facebook {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-gplus {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-linkedin {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-twitter {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-tumblr {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-pinterest {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-audio-description,
-.video-js .vjs-descriptions-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
-.vjs-icon-audio,
-.video-js .vjs-audio-button .vjs-icon-placeholder {
-    font-family: VideoJS;
-    font-weight: 400;
-    font-style: normal
-}
-
 .video-js {
     box-sizing: border-box;
     color: var(--color-fondo5);
@@ -3102,7 +2887,6 @@ span.CodeMirror-selectedtext {
 
 .video-js .vjs-time-tooltip {
     background-color: var(--color-fondo4);
-    background-color: rgba(255, 255, 255, .8);
     -webkit-border-radius: .3em;
     -moz-border-radius: .3em;
     border-radius: .3em;
@@ -3198,7 +2982,6 @@ span.CodeMirror-selectedtext {
 .vjs-loading-spinner:after {
     border-radius: inherit;
     border: inherit;
-    border-color: transparent;
     border-top-color: white
 }
 
@@ -3210,11 +2993,6 @@ span.CodeMirror-selectedtext {
 .vjs-seeking .vjs-loading-spinner:after,
 .vjs-waiting .vjs-loading-spinner:after {
     border-top-color: white;
-}
-
-.video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
-    font-family: VideoJS;
-    font-size: 1.5em;
 }
 
 .vjs-modal-dialog.vjs-text-track-settings {
@@ -4126,10 +3904,6 @@ body div[data-flexitour="step-background"] {
     background-color: #ddd
 }
 
-.assignfeedback_editpdf_commentsearch a pre {
-    font-family: helvetica;
-}
-
 .assignfeedback_editpdf_dropdown button {
     border: 0;
     background: none;
@@ -4187,7 +3961,7 @@ body div[data-flexitour="step-background"] {
     border: 2px solid var(--color-fondo4);
     border-radius: 4px;
     font-size: 16px;
-    font-family: helvetica;
+    font-family: helvetica, sans-serif;
 }
 
 .assignfeedback_editpdf_widget .commentdrawable textarea:focus {
@@ -4253,10 +4027,6 @@ body div[data-flexitour="step-background"] {
     background-color: #ddd
 }
 
-.assignfeedback_editpdfplus_commentsearch a pre {
-    font-family: helvetica;
-}
-
 .assignfeedback_editpdfplus_dropdown button {
     border: 0;
     background: none;
@@ -4307,7 +4077,7 @@ body div[data-flexitour="step-background"] {
     border: 2px solid var(--color-fondo4);
     border-radius: 4px;
     font-size: 16px;
-    font-family: helvetica;
+    font-family: helvetica, sans-serif;
 }
 
 .assignfeedback_editpdfplus_hightlightplus,
@@ -4727,7 +4497,6 @@ a.dimmed_text:visited,
 .dimmed_category,
 .dimmed_category a {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -4866,7 +4635,6 @@ tr.flagged-tag a {
 
 .tag_feed .media .muted a {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -4973,12 +4741,7 @@ tr.flagged-tag a {
 
 #page-enrol-users #filterform {
     background-color: var(--color-fondo5);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
     border: 1px solid #e3e3e3;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
@@ -5652,7 +5415,6 @@ a.disabled {
 #page-admin-qtypes .disabled,
 #page-admin-qbehaviours .disabled {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -5761,14 +5523,12 @@ a.disabled {
 #page-admin-plugins #plugins-control-panel .pluginname .componentname {
     font-size: 12px;
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic;
 }
 
 #page-admin-plugins #plugins-control-panel .version .versionnumber {
     font-size: 12px;
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -5779,19 +5539,16 @@ a.disabled {
 #page-admin-plugins #plugins-control-panel .notes .requiredby {
     font-size: 12px;
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
 #plugins-check-page .page-description {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
 #plugins-check-page #plugins-check .requires-ok {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -5802,7 +5559,6 @@ a.disabled {
 
 #plugins-check-page #plugins-check .displayname .plugindir {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic;
     font-size: 12px
 }
@@ -5810,7 +5566,6 @@ a.disabled {
 #plugins-check-page #plugins-check-available-dependencies .displayname .component {
     font-size: 12px;
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -6002,7 +5757,6 @@ a.disabled {
 
 .block .minicalendar td.weekend {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -6080,7 +5834,6 @@ a.disabled {
 
 .course-content .section-summary .section-summary-activities .activity-count {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic;
     font-size: 12px;
 }
@@ -6243,13 +5996,11 @@ span.editinstructions {
 
 #course-category-listings .listitem[data-visible="0"] {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
 #course-category-listings .listitem[data-visible="0"] > div > a {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -6299,7 +6050,6 @@ span.editinstructions {
 
 #course-category-listings .listing-pagination-totals.dimmed {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic;
 }
 
@@ -6558,7 +6308,6 @@ a.ygtvspacer:hover {
 
 .fitem.disabled .fp-btn-choose {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -10890,7 +10639,6 @@ img.icon-pre {
 .form-defaultinfo,
 .form-label .form-shortname {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -11463,7 +11211,6 @@ select.form-autocomplete-original-select {
 
 .path-backup .backup_progress .backup_stage {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -11500,7 +11247,6 @@ select.form-autocomplete-original-select {
 .backup-restore .detail-pair-value > .sub-detail {
     font-size: 12px;
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -12782,7 +12528,6 @@ img.profilepicture {
 .dimmed_category a:visited,
 .dimmed {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic
 }
 
@@ -12849,7 +12594,6 @@ table.ygtvtable td a {
 
 .courseitemsearch #courseitemsearchtally {
     color: var(--color-link-inactivo);
-    color: inherit;
     font-style: italic;
 }
 
@@ -12891,18 +12635,9 @@ p.tree_item.leaf a.action-delete > .fa {
     background-image: none !important
 }
 
-.tree_item.branch:before {
-    font-family: FontAwesome;
-    font-size: 16px;
-}
-
 .block.block_flat_navigation {
     border: none;
     border-radius: 0;
-}
-
-.jsenabled .block_settings .block_tree .tree_item.branch.loadingbranch:before {
-    font-family: FontAwesome;
 }
 
 .hidden-blocks {
@@ -12988,13 +12723,6 @@ p.tree_item.leaf a.action-delete > .fa {
     background: green
 }
 
-.block_login .username label:before {
-    font-family: FontAwesome;
-}
-
-.block_login .password label:before {
-    font-family: FontAwesome;
-}
 
 aside.rowblock-edit .block {
     -webkit-box-sizing: border-box;
@@ -13041,20 +12769,12 @@ aside.rowblock-edit .block {
     border-bottom: 14px solid transparent;
 }
 
-.breadcrumb-nav ul.breadcrumb.style1 li:first-of-type a:before {
-    font-family: FontAwesome;
-}
-
 .breadcrumb-nav ul.breadcrumb.style2 {
     background-color: transparent;
 }
 
 .breadcrumb-nav ul.breadcrumb.style2 li {
     border-radius: 0;
-}
-
-.breadcrumb-nav ul.breadcrumb.style2 li:after {
-    font-family: FontAwesome;
 }
 
 .breadcrumb-nav ul.breadcrumb.style3 {
@@ -13064,10 +12784,6 @@ aside.rowblock-edit .block {
 .breadcrumb-nav ul.breadcrumb.style3 li {
     background-color: transparent;
     font-size: 12px;
-}
-
-.breadcrumb-nav ul.breadcrumb.style3 li:after {
-    font-family: FontAwesome;
 }
 
 .breadcrumb-nav ul.breadcrumb.style1 li:after {
@@ -13198,7 +12914,6 @@ table.calendarmonth.calendartable {
 #essentialCarousel.carousel .carousel-indicators {
     border-radius: 4px;
     background-color: var(--color-fondo4);
-    background-color: rgba(255, 255, 255, .5)
 }
 
 #essentialCarousel.carousel .carousel-inner > .item.side-caption div.the-side-caption h4 {
@@ -13311,10 +13026,6 @@ div.mdl-align.title {
 
 .coursebox > .info > .coursename a {
     background-image: none
-}
-
-.coursebox > .info > .coursename a:before {
-    font-family: FontAwesome;
 }
 
 .coursebox > .info > .coursename a {
@@ -13493,10 +13204,6 @@ body.has_dock #dock {
     color: var(--color-fondo5)
 }
 
-.editing_title:before {
-    font-family: 'FontAwesome';
-}
-
 #page-footer {
     border: 0;
     font-size: 1em;
@@ -13554,11 +13261,6 @@ body.has_dock #dock {
     border-bottom-style: solid;
     font-size: 1.4em;
     font-weight: 400;
-}
-
-#page-footer .performanceinfo h2:before {
-    font-family: FontAwesome;
-    font-size: 1.65em;
 }
 
 #page-footer .performanceinfo span.fa {
@@ -13728,11 +13430,6 @@ body .forumpost .subject {
 .headingblock.header {
     color: #777;
     font-size: 1.8em;
-}
-
-#page-site-index h2.headingblock:before {
-    font-family: FontAwesome;
-    font-size: .85em;
 }
 
 .coursebox .content .courseimage img {
@@ -16444,7 +16141,6 @@ header {
 
 .logo-container {
     border-top: 0;
-    border-top-width: 0
 }
 
 .marketing-spot {
