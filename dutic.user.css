@@ -8,9 +8,9 @@
 @supportURL   https://github.com/Araozu/dutic-stylus/issues
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @-moz-document domain("aulavirtual.unsa.edu.pe") {
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
     :root {
         --tamano-texto: 18px;
