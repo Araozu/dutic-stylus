@@ -1,9 +1,11 @@
 /* ==UserStyle==
-@name         Dutic
+@name         Modo oscuro Dutic
 @namespace    github.com/Araozu/dutic-stylus
 @version      0.1.0
+@author       Araozu <faraoz@gmail.com> (https://github.com/Araozu)
 @license      MIT
-@preprocessor default
+@homepageURL  http://araozu.dev/
+@supportURL   https://github.com/Araozu/dutic-stylus/issues
 ==/UserStyle== */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
