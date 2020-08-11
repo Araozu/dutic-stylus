@@ -8,7 +8,7 @@
 @supportURL   https://github.com/Araozu/dutic-stylus/issues
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 @-moz-document domain("aulavirtual.unsa.edu.pe") {
 
@@ -32,9 +32,9 @@
         --color-texto-oscuro: #151515;
         --color-borde: #454545;
         --fuente-texto: Roboto, sans-serif;
-        --fuente-texto2: "Fira Sans", Roboto, sans-serif;
-        --fuente-texto3: "Fira Sans", Roboto, sans-serif;
-        --fuente-texto4: "Fira Sans", Roboto, sans-serif;
+        --fuente-texto2: "Open Sans", Roboto, sans-serif;
+        --fuente-texto3: "Open Sans", Roboto, sans-serif;
+        --fuente-texto4: "Open Sans", Roboto, sans-serif;
         --color-rojo: #f44336;
         --color-rojo-claro: #e53935;
         --color-naranja1: #FFE082;
