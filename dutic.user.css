@@ -1,14 +1,12 @@
 /* ==UserStyle==
 @name         Modo oscuro Dutic
 @namespace    github.com/Araozu/dutic-stylus
-@version      0.1.0
+@version      0.2.0
 @author       Araozu <faraoz@gmail.com> (https://github.com/Araozu)
 @license      MIT
 @homepageURL  http://araozu.dev/
 @supportURL   https://github.com/Araozu/dutic-stylus/issues
 ==/UserStyle== */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 @-moz-document domain("aulavirtual.unsa.edu.pe") {
 
@@ -32,9 +30,9 @@
         --color-texto-oscuro: #151515;
         --color-borde: #454545;
         --fuente-texto: Roboto, sans-serif;
-        --fuente-texto2: "Open Sans", Roboto, sans-serif;
-        --fuente-texto3: "Open Sans", Roboto, sans-serif;
-        --fuente-texto4: "Open Sans", Roboto, sans-serif;
+        --fuente-texto2: Roboto, sans-serif;
+        --fuente-texto3: Roboto, sans-serif;
+        --fuente-texto4: Roboto, sans-serif;
         --color-rojo: #f44336;
         --color-rojo-claro: #e53935;
         --color-naranja1: #FFE082;
@@ -1455,7 +1453,7 @@
     }
 
     #page-mod-quiz-edit ul.slots li.section li.activity {
-        background: #e6e6e6;
+        background: var(--color-fondo6);
     }
 
     #page-mod-quiz-edit ul.slots li.section li.activity.page {
@@ -1490,7 +1488,7 @@
     }
 
     #page-mod-quiz-edit .section .activity .actions {
-        background: #e6e6e6;
+        background: var(--color-fondo6);
     }
 
     #categoryquestions > tbody > tr:nth-of-type(even) {
@@ -5849,7 +5847,7 @@
     }
 
     #course-category-listings .listing-pagination .yui3-button.active-page {
-        background-color: #e6e6e6
+        background-color: var(--color-fondo6)
     }
 
     #course-category-listings .listing-pagination-totals.dimmed {
@@ -8560,9 +8558,7 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
         border-bottom-color: #b3b3b3;
         border-radius: 4px;
     }
@@ -8574,8 +8570,7 @@
     .btn.disabled,
     .btn[disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     .btn:active,
@@ -8875,7 +8870,7 @@
     }
 
     .btn-group.open .btn.dropdown-toggle {
-        background-color: #e6e6e6
+        background-color: var(--color-fondo6)
     }
 
     .btn-group.open .btn-primary.dropdown-toggle {
@@ -10918,9 +10913,7 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
         border-bottom-color: #b3b3b3;
         border-radius: 4px;
     }
@@ -10956,8 +10949,7 @@
     input[type="submit"][disabled],
     input[type="reset"][disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     button:active,
@@ -11036,21 +11028,15 @@
     }
 
     #page-grade-grading-manage .actions .action {
-        font-size: 14px;
         color: var(--color-texto2);
         background-color: var(--color-fondo5);
         background-image: none;
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
-        border-bottom-color: #b3b3b3;
-        border-radius: 4px;
         font-size: 18px;
         border-radius: 6px;
-        border: 1px solid #aaa
     }
 
     #page-grade-grading-manage .actions .action:hover,
@@ -11060,8 +11046,7 @@
     #page-grade-grading-manage .actions .action.disabled,
     #page-grade-grading-manage .actions .action[disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     #page-grade-grading-manage .actions .action:active,
@@ -11116,9 +11101,7 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
         border-bottom-color: #b3b3b3;
         border-radius: 4px;
         background-position: 0 0;
@@ -11131,8 +11114,7 @@
     #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.disabled,
     #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input[disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active,
@@ -11170,9 +11152,7 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
         border-bottom-color: #b3b3b3;
         border-radius: 4px;
     }
@@ -11184,8 +11164,7 @@
     #rubric-rubric.gradingform_rubric .addcriterion.disabled,
     #rubric-rubric.gradingform_rubric .addcriterion[disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     #rubric-rubric.gradingform_rubric .addcriterion:active,
@@ -11296,7 +11275,6 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
         border: 0;
         border-bottom-color: #b3b3b3;
@@ -11310,8 +11288,7 @@
     #dock .dockedtitle.disabled,
     #dock .dockedtitle[disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     #dock .dockedtitle:active,
@@ -11637,9 +11614,7 @@
         background-repeat: repeat-x;
         border-color: #e6e6e6 #e6e6e6 #bfbfbf;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #e6e6e6;
         border: 1px solid var(--color-fondo4);
-        border: 0;
         border-bottom-color: #b3b3b3;
         border-radius: 4px;
     }
@@ -11657,8 +11632,7 @@
     #notice .singlebutton + .singlebutton input[disabled],
     .submit.buttons input[name="cancel"][disabled] {
         color: var(--color-texto2);
-        background-color: #e6e6e6;
-        background-color: #d9d9d9
+        background-color: var(--color-fondo6);
     }
 
     #notice .singlebutton + .singlebutton input:active,
@@ -11705,8 +11679,6 @@
         background-repeat: repeat-x;
         border-color: #f89406 #f89406 #ad6704;
         border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
-        background-color: #f89406;
-        color: var(--color-fondo5) !important
     }
 
     input[id$="_clearbutton"]:hover,
@@ -11723,7 +11695,6 @@
     input[type="reset"][disabled] {
         color: var(--color-fondo5);
         background-color: #f89406;
-        background-color: #df8505
     }
 
     input[id$="_clearbutton"]:active,
@@ -15756,6 +15727,18 @@
 
     * {
         text-shadow: none !important;
+    }
+
+    /* Imagen de perfil personal */
+    .dropdown-toggle .userpicture {
+        display: none;
+    }
+
+    .userpicture {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 0.75rem;
+        color: black;
     }
 
 }
