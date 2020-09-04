@@ -2,10 +2,18 @@
 @name         Modo oscuro Dutic
 @namespace    github.com/Araozu/dutic-stylus
 @version      0.2.0
+@description  Estilos para corregir errores y permitir modo oscuro en el DUTIC - UNSA.
 @author       Araozu <faraoz@gmail.com> (https://github.com/Araozu)
 @license      MIT
 @homepageURL  http://araozu.dev/
 @supportURL   https://github.com/Araozu/dutic-stylus/issues
+@preprocessor stylus
+
+@var select tema "Color principal/tema" {
+    "color_negro:Rosa/oscuro": "pink",
+    "color_rojo:Rojo/claro": "red"
+}
+
 ==/UserStyle== */
 
 @-moz-document domain("aulavirtual.unsa.edu.pe") {
@@ -21,11 +29,7 @@
         --color-fondo7: #303030;
         --color-texto1: #dedede;
         --color-texto2: #eeeeee;
-        --color-link: #4DB6AC;
         --color-link-inactivo: #cccccc;
-        --color-principal-claro: #4DB6AC;
-        --color-principal: #009688;
-        --color-principal-oscuro: #00695C;
         --color-texto-rojo-oscuro: #b71c1c;
         --color-texto-oscuro: #151515;
         --color-borde: #454545;
@@ -37,6 +41,11 @@
         --color-rojo-claro: #e53935;
         --color-naranja1: #FFE082;
         --color-verde-claro1: #689F38;
+
+        --color-link: #4DB6AC;
+        --color-principal-claro: #4DB6AC;
+        --color-principal: #009688;
+        --color-principal-oscuro: #00695C;
     }
 
     body#page-question-type-calculated div[id^=fgroup_id_][id*=answeroptions_],
@@ -2089,7 +2098,7 @@
         border-radius: 0;
         border: 1px solid #84bbf3;
         color: var(--color-fondo5);
-        font-family: var(--fuente-texto);;
+        font-family: var(--fuente-texto);
         font-size: 15px;
         font-weight: 700;
         font-style: normal;
@@ -7056,7 +7065,7 @@
     }
 
     body {
-        font-family: var(--fuente-texto3);;
+        font-family: var(--fuente-texto3);
         font-size: 14px;
         color: var(--color-texto2);
         background-color: var(--color-fondo4)
@@ -9220,7 +9229,7 @@
     }
 
     .navbar-search .search-query {
-        font-family: var(--fuente-texto3);;
+        font-family: var(--fuente-texto3);
         font-size: 13px;
         font-weight: 400;
         border-radius: 15px
@@ -11257,7 +11266,7 @@
     }
 
     .transform-test-heading {
-        font-family: var(--fuente-texto3);;
+        font-family: var(--fuente-texto3);
         font-size: 11px;
         font-weight: 700;
     }
@@ -11319,7 +11328,7 @@
     }
 
     #dock .dockedtitle h2 {
-        font-family: var(--fuente-texto3);;
+        font-family: var(--fuente-texto3);
         font-size: 11px;
         font-weight: 700;
     }
@@ -13938,7 +13947,7 @@
 
     a.marketing-button:hover {
         color: var(--color-fondo5);
-        background-color: var(--color-texto1)
+        background-color: var(--color-fondo2)
     }
 
     #essentialCarousel.carousel .carousel-inner .carousel-caption {
@@ -14059,7 +14068,7 @@
     body.has_dock #dock .dockedtitle.active,
     body.has_dock #dock .dockedtitle.disabled,
     body.has_dock #dock .dockedtitle[disabled] {
-        background-color: var(--color-texto1)
+        background-color: var(--color-fondo2)
     }
 
     .menu a.menu-action > .fa,
@@ -15153,7 +15162,7 @@
 
     body {
         color: var(--color-texto1);
-        font-family: var(--fuente-texto2);;
+        font-family: var(--fuente-texto2);
         background-image: none;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -15278,7 +15287,7 @@
     }
 
     .block_rss_client .footer a:hover {
-        background-color: var(--color-texto1)
+        background-color: var(--color-fondo2)
     }
 
     .block_login .content form input[type="submit"] {
@@ -15379,7 +15388,7 @@
     }
 
     #page-footer .block_login input[type="submit"]:hover {
-        background-color: var(--color-texto1)
+        background-color: var(--color-fondo2)
     }
 
     #page-footer .block_rss_client .content a {
