@@ -53,6 +53,29 @@
             --color-texto1: #151515
             --color-texto2: #202020
 
+        else if theme == auto
+            @media (prefers-color-scheme: dark)
+                --color-fondo1: #151515
+                --color-fondo2: #181818
+                --color-fondo3: #252525
+                --color-fondo4: #202020
+                --color-fondo5: #222222
+                --color-fondo6: #262626
+                --color-fondo7: #303030
+                --color-texto1: #dedede
+                --color-texto2: #eeeeee
+
+            @media (prefers-color-scheme: light)
+                --color-fondo1: white
+                --color-fondo2: #fdfdfd
+                --color-fondo3: #fbfbfb
+                --color-fondo4: #fafafa
+                --color-fondo5: #f8f8f8
+                --color-fondo6: #f6f6f6
+                --color-fondo7: #f4f4f4
+                --color-texto1: #151515
+                --color-texto2: #202020
+
         if mycolor == mpink
             --color-link: #F06292
             --color-principal-claro: #F06292
@@ -15778,5 +15801,7 @@
         font-size: 0.75rem
         color: black
 
-
+    // Hacer que la barra superior no afecte al resto de la pagina
+    #page-top-header
+        min-height 5rem !important
 
