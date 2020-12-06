@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Modo oscuro Dutic
 @namespace    github.com/Araozu/dutic-stylus
-@version      0.2.0
+@version      0.3.0
 @description  Estilos para corregir errores y permitir modo oscuro en el DUTIC - UNSA.
 @author       Araozu <faraoz@gmail.com> (https://github.com/Araozu)
 @license      MIT
@@ -11,6 +11,7 @@
 
 @var select theme "Tema" ["dark:Oscuro", "light:Claro"]
 @var select mycolor "Color" ["mpink:Rosa", "mteal:Teal", "mred:Rojo", "mpurple:Purpura"]
+@var select font "Fuente" ["roboto:Roboto", "fira:Fira Sans", "open:Open Sans", "source:Source Sans Pro"]
 
 ==/UserStyle== */
 
@@ -22,14 +23,31 @@
         --color-texto-rojo-oscuro: #b71c1c
         --color-texto-oscuro: #151515
         --color-borde: #454545
-        --fuente-texto: Roboto, sans-serif
-        --fuente-texto2: Roboto, sans-serif
-        --fuente-texto3: Roboto, sans-serif
-        --fuente-texto4: Roboto, sans-serif
         --color-rojo: #f44336
         --color-rojo-claro: #e53935
         --color-naranja1: #FFE082
         --color-verde-claro1: #689F38
+
+        if font == roboto
+            --fuente-texto: Roboto, sans-serif
+            --fuente-texto2: Roboto, sans-serif
+            --fuente-texto3: Roboto, sans-serif
+            --fuente-texto4: Roboto, sans-serif
+        else if font == fira
+            --fuente-texto: "Fira Sans", sans-serif
+            --fuente-texto2: "Fira Sans", sans-serif
+            --fuente-texto3: "Fira Sans", sans-serif
+            --fuente-texto4: "Fira Sans", sans-serif
+        else if font == open
+            --fuente-texto: "Open Sans", sans-serif
+            --fuente-texto2: "Open Sans", sans-serif
+            --fuente-texto3: "Open Sans", sans-serif
+            --fuente-texto4: "Open Sans", sans-serif
+        else if font == source
+            --fuente-texto: "Source Sans Pro", sans-serif
+            --fuente-texto2: "Source Sans Pro", sans-serif
+            --fuente-texto3: "Source Sans Pro", sans-serif
+            --fuente-texto4: "Source Sans Pro", sans-serif
 
         if theme == dark
             --color-fondo1: #151515
